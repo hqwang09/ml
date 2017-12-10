@@ -7,10 +7,13 @@
   To generate the print in the sample provided, please run 
     $python test_concordance.py Test_concordance.test_split_sentences_bw
   To test with other text, please first enter into the downloaded folder and run the following commands in python console:
-  import concordance
-  concord = concordance.Concordance()
-  words_frequency=concord.wordsCont(text)  #where text is the text used for test
-  concord.printWordsFrequency(words_frequency) #print out the words account in the sample format
+  >>>import concordance
+
+  >>>concord = concordance.Concordance()
+  
+  >>>words_frequency=concord.wordsCont(text)  #where text is the text used for test
+  
+  >>>concord.printWordsFrequency(words_frequency) #print out the words account in the sample format
 
   The above code has been tested with python 3.5.2
 
