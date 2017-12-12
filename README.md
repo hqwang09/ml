@@ -1,4 +1,5 @@
 # nltk
+This is the code to implement sentences/words split in python.
 
 1)Source code:
   a) concordance.py - the solution code
